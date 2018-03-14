@@ -1,0 +1,36 @@
+@media(min-width:600px) {
+  main {
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+  }
+  .info1 {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+
+  .figure1 {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+}
+
+
+body {
+  max-width:1600px;
+  margin:0 auto;
+  background: #0c0b0b;
+  color:#fff;
+}
+
+.figure-img {
+  display:block;
+  height:100%;
+  width:100%;
+  object-fit: cover;
+  -webkit-box-shadow: 0 1px 2px #777;
+	-moz-box-shadow: 0 2px 1px #777;
+	box-shadow: 0 2px 1px #777;
+
+
+}
